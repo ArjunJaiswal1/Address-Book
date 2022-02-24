@@ -24,7 +24,8 @@ namespace AddressBook
                 PhoneNumber = Convert.ToDouble(Console.ReadLine()),
                 Email = Console.ReadLine(),
             };
-            addressBook.displayContact();
+            addressBook.DisplayContact();
+            addressBook.AddContact();
             Console.ReadLine();
         }
     }
